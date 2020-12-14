@@ -22,7 +22,7 @@ public class Main {
 	obj.close();
 	try  
 	{  
-	FileInputStream fis=new FileInputStream("urlfile.txt");       
+	FileInputStream fis=new FileInputStream("wordlist.txt");       
 	Scanner sc=new Scanner(fis);	
 	System.out.print("Successful code are:[");     
 	while(sc.hasNextLine())  
